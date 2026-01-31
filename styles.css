@@ -2139,6 +2139,13 @@ h1, h2, h3, .section-title, .hero-title, .step-title, .cta-title {
     color: white;
 }
 
+.sidebar-logo-img {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    object-fit: contain;
+}
+
 .sidebar-logo span {
     font-weight: 600;
     font-size: 1rem;
@@ -2585,7 +2592,7 @@ h1, h2, h3, .section-title, .hero-title, .step-title, .cta-title {
     transform-origin: center center;
 }
 
-/* Main cyan/blue streaks - Full width diagonal */
+/* Main brand yellow/gold streaks - Full width diagonal */
 .ray-1 {
     top: -5%;
     left: -50%;
@@ -2593,17 +2600,17 @@ h1, h2, h3, .section-title, .hero-title, .step-title, .cta-title {
     height: 8px;
     background: linear-gradient(90deg, 
         transparent 0%,
-        rgba(6, 182, 212, 0.2) 10%,
-        rgba(14, 165, 233, 0.7) 30%,
-        rgba(56, 189, 248, 1) 50%,
-        rgba(14, 165, 233, 0.7) 70%,
-        rgba(6, 182, 212, 0.2) 90%,
+        rgba(255, 220, 0, 0.2) 10%,
+        rgba(255, 220, 0, 0.7) 30%,
+        rgba(255, 224, 51, 1) 50%,
+        rgba(255, 220, 0, 0.7) 70%,
+        rgba(255, 220, 0, 0.2) 90%,
         transparent 100%
     );
     transform: rotate(-25deg);
     box-shadow: 
-        0 0 40px 15px rgba(14, 165, 233, 0.4),
-        0 0 80px 30px rgba(6, 182, 212, 0.2);
+        0 0 40px 15px rgba(255, 220, 0, 0.4),
+        0 0 80px 30px rgba(255, 220, 0, 0.2);
 }
 
 .ray-2 {
@@ -2613,17 +2620,17 @@ h1, h2, h3, .section-title, .hero-title, .step-title, .cta-title {
     height: 12px;
     background: linear-gradient(90deg, 
         transparent 0%,
-        rgba(14, 165, 233, 0.3) 10%,
-        rgba(6, 182, 212, 0.9) 35%,
-        rgba(56, 189, 248, 1) 50%,
-        rgba(6, 182, 212, 0.9) 65%,
-        rgba(14, 165, 233, 0.3) 90%,
+        rgba(255, 220, 0, 0.3) 10%,
+        rgba(255, 220, 0, 0.9) 35%,
+        rgba(255, 224, 51, 1) 50%,
+        rgba(255, 220, 0, 0.9) 65%,
+        rgba(255, 220, 0, 0.3) 90%,
         transparent 100%
     );
     transform: rotate(-25deg);
     box-shadow: 
-        0 0 60px 20px rgba(14, 165, 233, 0.5),
-        0 0 100px 40px rgba(6, 182, 212, 0.3);
+        0 0 60px 20px rgba(255, 220, 0, 0.5),
+        0 0 100px 40px rgba(255, 220, 0, 0.3);
 }
 
 .ray-3 {
@@ -2633,17 +2640,17 @@ h1, h2, h3, .section-title, .hero-title, .step-title, .cta-title {
     height: 6px;
     background: linear-gradient(90deg, 
         transparent 0%,
-        rgba(6, 182, 212, 0.3) 15%,
-        rgba(14, 165, 233, 0.9) 40%,
-        rgba(56, 189, 248, 1) 50%,
-        rgba(14, 165, 233, 0.9) 60%,
-        rgba(6, 182, 212, 0.3) 85%,
+        rgba(23, 147, 196, 0.3) 15%,
+        rgba(23, 147, 196, 0.9) 40%,
+        rgba(91, 175, 162, 1) 50%,
+        rgba(23, 147, 196, 0.9) 60%,
+        rgba(23, 147, 196, 0.3) 85%,
         transparent 100%
     );
     transform: rotate(-25deg);
     box-shadow: 
-        0 0 50px 18px rgba(14, 165, 233, 0.4),
-        0 0 90px 35px rgba(6, 182, 212, 0.25);
+        0 0 50px 18px rgba(23, 147, 196, 0.4),
+        0 0 90px 35px rgba(23, 147, 196, 0.25);
 }
 
 .ray-4 {
@@ -2653,16 +2660,16 @@ h1, h2, h3, .section-title, .hero-title, .step-title, .cta-title {
     height: 4px;
     background: linear-gradient(90deg, 
         transparent 0%,
-        rgba(14, 165, 233, 0.4) 20%,
-        rgba(6, 182, 212, 0.8) 45%,
-        rgba(56, 189, 248, 0.9) 55%,
-        rgba(14, 165, 233, 0.4) 80%,
+        rgba(255, 220, 0, 0.4) 20%,
+        rgba(255, 220, 0, 0.8) 45%,
+        rgba(255, 224, 51, 0.9) 55%,
+        rgba(255, 220, 0, 0.4) 80%,
         transparent 100%
     );
     transform: rotate(-25deg);
     box-shadow: 
-        0 0 30px 12px rgba(14, 165, 233, 0.35),
-        0 0 60px 25px rgba(6, 182, 212, 0.2);
+        0 0 30px 12px rgba(255, 220, 0, 0.35),
+        0 0 60px 25px rgba(255, 220, 0, 0.2);
 }
 
 .ray-5 {
@@ -2672,18 +2679,18 @@ h1, h2, h3, .section-title, .hero-title, .step-title, .cta-title {
     height: 3px;
     background: linear-gradient(90deg, 
         transparent 0%,
-        rgba(6, 182, 212, 0.3) 25%,
-        rgba(14, 165, 233, 0.7) 50%,
-        rgba(6, 182, 212, 0.3) 75%,
+        rgba(23, 147, 196, 0.3) 25%,
+        rgba(23, 147, 196, 0.7) 50%,
+        rgba(23, 147, 196, 0.3) 75%,
         transparent 100%
     );
     transform: rotate(-25deg);
     box-shadow: 
-        0 0 25px 10px rgba(14, 165, 233, 0.3),
-        0 0 50px 20px rgba(6, 182, 212, 0.15);
+        0 0 25px 10px rgba(23, 147, 196, 0.3),
+        0 0 50px 20px rgba(23, 147, 196, 0.15);
 }
 
-/* Orange accent streak - Full width */
+/* Orange/amber accent streak - Full width */
 .ray-orange {
     top: 35%;
     left: -50%;
@@ -2692,16 +2699,16 @@ h1, h2, h3, .section-title, .hero-title, .step-title, .cta-title {
     background: linear-gradient(90deg, 
         transparent 0%,
         rgba(249, 115, 22, 0.2) 20%,
-        rgba(251, 146, 60, 0.7) 40%,
+        rgba(249, 115, 22, 0.7) 40%,
         rgba(249, 115, 22, 1) 50%,
-        rgba(251, 146, 60, 0.7) 60%,
+        rgba(249, 115, 22, 0.7) 60%,
         rgba(249, 115, 22, 0.2) 80%,
         transparent 100%
     );
     transform: rotate(-25deg);
     box-shadow: 
         0 0 40px 15px rgba(249, 115, 22, 0.4),
-        0 0 80px 30px rgba(251, 146, 60, 0.2);
+        0 0 80px 30px rgba(249, 115, 22, 0.2);
 }
 
 /* Subtle glow animation */
