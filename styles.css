@@ -2690,7 +2690,7 @@ h1, h2, h3, .section-title, .hero-title, .step-title, .cta-title {
         0 0 50px 20px rgba(23, 147, 196, 0.15);
 }
 
-/* Orange accent streak - Full width */
+/* Yellow accent streak - Full width */
 .ray-orange {
     top: 35%;
     left: -50%;
@@ -2698,17 +2698,17 @@ h1, h2, h3, .section-title, .hero-title, .step-title, .cta-title {
     height: 5px;
     background: linear-gradient(90deg, 
         transparent 0%,
-        rgba(249, 115, 22, 0.2) 20%,
-        rgba(249, 115, 22, 0.7) 40%,
-        rgba(249, 115, 22, 1) 50%,
-        rgba(249, 115, 22, 0.7) 60%,
-        rgba(249, 115, 22, 0.2) 80%,
+        rgba(255, 220, 0, 0.2) 20%,
+        rgba(255, 220, 0, 0.7) 40%,
+        rgba(255, 220, 0, 1) 50%,
+        rgba(255, 220, 0, 0.7) 60%,
+        rgba(255, 220, 0, 0.2) 80%,
         transparent 100%
     );
     transform: rotate(-25deg);
     box-shadow: 
-        0 0 40px 15px rgba(249, 115, 22, 0.4),
-        0 0 80px 30px rgba(249, 115, 22, 0.2);
+        0 0 40px 15px rgba(255, 220, 0, 0.4),
+        0 0 80px 30px rgba(255, 220, 0, 0.2);
 }
 
 /* Subtle glow animation */
